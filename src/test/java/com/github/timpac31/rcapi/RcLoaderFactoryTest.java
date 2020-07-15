@@ -22,7 +22,7 @@ public class RcLoaderFactoryTest {
 	
 	@Test
 	public void TestRcLoaderFactoryByFileAndTagName() {
-		RcLoader xmlRcLoader = RcLoaderFactory.createRcLoader("rc-configuration.xml", "wheather-api-seoul");
+		RcLoader xmlRcLoader = RcLoaderFactory.createRcLoader("rc-configuration-test.xml", "wheather-api-seoul");
 		RcLoader jsonRcLoader = RcLoaderFactory.createRcLoader("rc-configuration-test.xml", "test");
 		
 		assertEquals("XmlRcLoader", xmlRcLoader.getClass().getSimpleName());

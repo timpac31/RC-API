@@ -7,7 +7,7 @@
  2. Dependencies
   : junit 4.12, jackson-core 2.11.0, jackson-databind 2.11.0
 
-## Getting Start
+## Getting Started
  1. git clone https://github.com/timpac31/RC-API.git
  2. 기본 설정파일 rc-configuration.xml 수정 [[참조]](#configuration) => classpath에 추가  
     만약 직접 파일 지정하고 싶으면 [[참조]](#customConfig)

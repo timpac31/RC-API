@@ -1,0 +1,70 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "0000",
+			"resultMsg": "OK"
+		},
+		"body": {
+			"items": {
+				"item": [{
+					"baseDate": 20200708,
+					"baseTime": "0930",
+					"category": "LGT",
+					"fcstDate": 20200708,
+					"fcstTime": 1000,
+					"fcstValue": 0,
+					"nx": 58,
+					"ny": 126
+				}, {
+					"baseDate": 20200708,
+					"baseTime": "0930",
+					"category": "LGT",
+					"fcstDate": 20200708,
+					"fcstTime": 1100,
+					"fcstValue": 0,
+					"nx": 58,
+					"ny": 126
+				}, {
+					"baseDate": 20200708,
+					"baseTime": "0930",
+					"category": "LGT",
+					"fcstDate": 20200708,
+					"fcstTime": 1200,
+					"fcstValue": 0,
+					"nx": 58,
+					"ny": 126
+				}, {
+					"baseDate": 20200708,
+					"baseTime": "0930",
+					"category": "LGT",
+					"fcstDate": 20200708,
+					"fcstTime": 1300,
+					"fcstValue": 0,
+					"nx": 58,
+					"ny": 126
+				}, {
+					"baseDate": 20200708,
+					"baseTime": "0930",
+					"category": "LGT",
+					"fcstDate": 20200708,
+					"fcstTime": 1400,
+					"fcstValue": 0,
+					"nx": 58,
+					"ny": 126
+				}, {
+					"baseDate": 20200708,
+					"baseTime": "0930",
+					"category": "LGT",
+					"fcstDate": 20200708,
+					"fcstTime": 1500,
+					"fcstValue": 0,
+					"nx": 58,
+					"ny": 126
+				}]
+			},
+			"numOfRows": 25,
+			"pageNo": 1,
+			"totalCount": 60
+		}
+	}
+}

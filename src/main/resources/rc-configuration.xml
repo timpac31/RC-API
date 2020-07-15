@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="https://github.com/timpac31/rc-api">
+	<elements>
+		<elementOption>
+			<name>wheather-api-seoul</name>
+			<url>https://rss.blog.naver.com/gangseokkachi.xml</url>
+			<interval>600000</interval>
+			<dataType>xml</dataType>
+		</elementOption>
+		
+		<elementOption>
+			<name>instagram</name>
+			<url>https://graph.instagram.com/me/media?fields=id,caption</url>
+			<interval>60000</interval>
+			<dataType>json</dataType>
+		</elementOption>
+	</elements>
+</config>

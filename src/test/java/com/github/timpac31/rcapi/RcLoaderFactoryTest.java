@@ -8,7 +8,8 @@ import org.junit.Test;
 import com.github.timpac31.rcapi.config.RcConfigurationException;
 
 public class RcLoaderFactoryTest {
-	@Test
+	//@Test
+	//테스트 하려면 기본설정파일(rc-configuration-test.xml) 수정시 같이 수정해야함
 	public void TestRcLoaderFactoryByTagName() {
 		RcLoader xmlRcLoader = RcLoaderFactory.createRcLoader("wheather-api-seoul");
 		RcLoader jsonRcLoader = RcLoaderFactory.createRcLoader("instagram");

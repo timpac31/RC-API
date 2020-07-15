@@ -1,5 +1,5 @@
 ## RC-API (REDUCE CALL API)
-요청 제한이있는 API를 사용할 경우 응답 데이터를 JVM 메모리에 일정시간 저장하여 요청수를 줄여주는 라이브러리입니다.  
+요청 제한이있는 API를 사용할 경우 응답 데이터를 JVM 메모리에 일정시간 저장하여 요청수를 줄여주는 라이브러리 
 만약 설정파일에 interval 시간을 1분으로 설정하면 마지막 API요청시간 1분전에는 기존 저장데이터를 불러오고 1분후에는 다시 API 요청합니다.
 
 ## Required
@@ -39,7 +39,7 @@ attribute name     | Description                          |
 -------------------|--------------------------------------|
 name               | API 이름                             | 
 url                | API 요청 주소                        | 
-interval           | 데이터 저장시간(milli second)         | 
+interval           | 데이터 저장시간(millisecond)         | 
 dataType           | 응답 데이터 타입 `json` or `xml`      | 
 
 ## <h2 id="usage">Usage Example</h2>
@@ -67,4 +67,4 @@ storage.getData() 하면 [com.fasterxml.jackson.databind.JsonNode](https://javad
 > 직접 설정파일명과 경로를 지정하고 싶으면 RcLoader 생성시 인자로 경로와 파일명을 지정해야함. 
 
 ## Author
-timpac61@gmail.com
+JYD(timpac61@gmail.com)

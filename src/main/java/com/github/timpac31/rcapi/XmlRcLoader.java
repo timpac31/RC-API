@@ -13,13 +13,11 @@ import com.github.timpac31.rcapi.data.XmlRcStorage;
 
 public class XmlRcLoader implements RcLoader {
 	private ElementOption option;
-	private RcStorageList storageList;
 	private XmlRcStorage storage;
 
-	public XmlRcLoader(ElementOption option) {
+	protected XmlRcLoader(ElementOption option) {
 		this.option = option;
-		this.storageList = new RcStorageList();
-		storage = (XmlRcStorage) this.storageList.getRcStorage(option.getName());
+		storage = (XmlRcStorage) RcStorageList.getRcStorage(option.getName());
 		if(storage == null) 
 			storage = new XmlRcStorage();
 	}
@@ -42,7 +40,7 @@ public class XmlRcLoader implements RcLoader {
 	private void saveData(Document document) {
 		storage.setLastCall(System.currentTimeMillis());
 		storage.setData(document);
-		storageList.addRcStorage(option.getName(), storage);
+		RcStorageList.addRcStorage(option.getName(), storage);
 	}
 
 }

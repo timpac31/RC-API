@@ -1,10 +1,8 @@
 package com.github.timpac31.rcapi;
 
 import java.net.URL;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.w3c.dom.Document;
 
 import com.github.timpac31.rcapi.config.ElementOption;
